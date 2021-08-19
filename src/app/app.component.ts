@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  styles: ['canvas { border-style: solid }']
 })
-export class AppComponent {
-  title = 'Working-Note';
+export class AppComponent{
+
+  ngOnInit(): void {
+
+  }
+
+ 
+
+ 
 }
+
+

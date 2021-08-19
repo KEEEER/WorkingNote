@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="tool-bar-icon" (click)="sidenav.toggle()" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+    
+
+    <span class="spacer"></span>
+    <button mat-icon-button class="tool-bar-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+</mat-toolbar>
+
+
+<mat-sidenav-container class="left-side-toolbar-container">
+  <mat-sidenav class="left-side-toolbar" #sidenav mode="side" opened>
+    <button class="left-side-toolbar-element" mat-button>日程表</button>
+    <button class="left-side-toolbar-element" mat-button>記事</button>
+
+  </mat-sidenav>
+
+
+  <mat-sidenav-content>
+    
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
